@@ -484,6 +484,7 @@
 		E97B971A229D54D600505476 /* ActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B9719229D54D600505476 /* ActionTests.swift */; };
 		E97B972322B238C400505476 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B972222B238C400505476 /* Analytics.swift */; };
 		E9909FB422B7C816008DE50C /* PaymentMethods.json in Resources */ = {isa = PBXBuildFile; fileRef = E9909FB322B7C815008DE50C /* PaymentMethods.json */; };
+		E9AC137E2A8CA14E0011F760 /* EntryPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AC137C2A8CA0480011F760 /* EntryPointViewController.swift */; };
 		E9AFF87A224A4C9C005A0D8D /* PaymentComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFF879224A4C9C005A0D8D /* PaymentComponent.swift */; };
 		E9AFF887224E5872005A0D8D /* PresentableComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFF886224E5872005A0D8D /* PresentableComponent.swift */; };
 		E9B36C9D223FDE4F00EAA368 /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B36C9C223FDE4F00EAA368 /* PaymentMethods.swift */; };
@@ -1695,6 +1696,7 @@
 		E97B972022B0F3F500505476 /* ActionComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionComponentData.swift; sourceTree = "<group>"; };
 		E97B972222B238C400505476 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		E9909FB322B7C815008DE50C /* PaymentMethods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaymentMethods.json; sourceTree = "<group>"; };
+		E9AC137C2A8CA0480011F760 /* EntryPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointViewController.swift; sourceTree = "<group>"; };
 		E9AFF879224A4C9C005A0D8D /* PaymentComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentComponent.swift; sourceTree = "<group>"; };
 		E9AFF87B224B7E9E005A0D8D /* SEPADirectDebitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEPADirectDebitDetails.swift; sourceTree = "<group>"; };
 		E9AFF87D224BB149005A0D8D /* IssuerListDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuerListDetails.swift; sourceTree = "<group>"; };
@@ -4558,6 +4560,7 @@
 		F95B6D962527454E002C9062 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E9AC137C2A8CA0480011F760 /* EntryPointViewController.swift */,
 				F95B6D972527454E002C9062 /* AppDelegate.swift */,
 				F95B6D992527454E002C9062 /* SceneDelegate.swift */,
 				F95B6D9B2527454E002C9062 /* ComponentsView.swift */,
@@ -6987,6 +6990,7 @@
 				002A767A2A039C96000684D2 /* ApplePayComponentExample.swift in Sources */,
 				F9A53D6325499B13009000A7 /* Configuration.swift in Sources */,
 				F95B6D9A2527454E002C9062 /* SceneDelegate.swift in Sources */,
+				E9AC137E2A8CA14E0011F760 /* EntryPointViewController.swift in Sources */,
 				00ED81BE29EEC50B00A6B52C /* CardComponentAdvancedFlowExample.swift in Sources */,
 				F95B6DD6252B4654002C9062 /* ComponentsItem.swift in Sources */,
 				E73C560725EE8C8D00B57758 /* APIClientHelper.swift in Sources */,

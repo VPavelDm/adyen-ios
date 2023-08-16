@@ -300,13 +300,16 @@ extension DropInAdvancedFlowExample: ActionComponentDelegate {
 
     internal func didProvide(_ data: ActionComponentData, from component: ActionComponent) {
         (component as? PresentableComponent)?.viewController.view.isUserInteractionEnabled = false
-        let request = PaymentDetailsRequest(
-            details: data.details,
-            paymentData: data.paymentData,
-            merchantAccount: ConfigurationConstants.current.merchantAccount
-        )
-        apiClient.perform(request) { [weak self] result in
-            self?.paymentResponseHandler(result: result)
-        }
+//        let request = PaymentDetailsRequest(
+//            details: data.details,
+//            paymentData: data.paymentData,
+//            merchantAccount: ConfigurationConstants.current.merchantAccount
+//        )
+        paymentResponseHandler(result: .failure(PaymentError()))
+//        apiClient.perform(request) { [weak self] result in
+//            self?.paymentResponseHandler(result: result)
+//        }
     }
 }
+
+struct PaymentError: Error {}
